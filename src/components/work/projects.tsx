@@ -14,14 +14,14 @@ const Projects = () => {
             <div key={index} className='p-3 md:mx-4'>
               <Image src={`/${project.image}`} width={400} height={100} alt="" className='h-60' />
               <p className='font-title text-primary-500 text-left text-2xl mt-2'>{project.title}</p>
-              <p className='font-body text-secondary-500 text-left text-sm'>{project.duration}</p>
+            {/*  <p className='font-body text-secondary-500 text-left text-sm'>{project.duration}</p> */}
               <div className='w-80 md:w-96 whitespace-normal'>
                 <p className='font-body text-black-100 text-justify text-sm min-h-[80px]'>{project.description}</p>
               </div>
-              <div className='flex mt-2'>
+          {/*    <div className='flex mt-2'>
                 {project.gitLink && <a href={project.gitLink} className='font-body text-primary-500 text-left text-sm flex items-center'><FaGithub className='text-sm mr-2' /> View git repo</a>}
                 {project.projectLink && <a href={project.projectLink} className='font-body text-primary-500 text-left text-sm flex items-center ml-8'><MdWebStories className='text-sm mr-2' /> View live site</a>}
-              </div>
+              </div>*/}
             </div>
           ))
         }
