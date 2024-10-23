@@ -28,7 +28,6 @@ const Hero = () => (
         <p className='font-title text-8xl xsm:text-5xl md:text-8xl text-primary-500 tracking-wide'>Parth Dave</p>
         <p className='font-body text-xl text-white-500 mt-4 xsm:hidden md:block'>Cyber Security Engineer. Security Consultant.</p>
         <p className='font-body text-lg text-white-500 mt-4 md:hidden'>Security Operations Center (SOC) Analyst.</p>
-        <p className='font-body text-lg text-white-500 md:hidden'>Penetration Tester / Ethical Hacker.</p>
         <p className='font-body xsm:text-lg md:text-xl text-white-500'>Penetration Tester / Ethical Hacker.</p>
       </div>
       <div className='absolute bottom-0 pb-2 w-full max-w-[1440px] flex flex-row justify-center'>
